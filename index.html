@@ -23,13 +23,13 @@
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Описание</a>
+                        <a class="menu__link" href="#info">Описание</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Характеристики</a>
+                        <a class="menu__link" href="#characteristics">Характеристики</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">Стоимость</a>
+                        <a class="menu__link" href="#price">Стоимость</a>
                     </li>
                 </ul>
             </nav>
@@ -55,7 +55,7 @@
                     пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают
                     каждую поездку гораздо приятнее.
                 </p>
-                <a class="bike__link" href="#">ЗАКАЗАТЬ</a>
+                <a class="bike__link" href="#price">ЗАКАЗАТЬ</a>
             </div>
             <div class="bike__column bike__column-slider">
                 <div class="bike-slider">
@@ -90,7 +90,7 @@
 <!-- end первый блок -->
 
 <!-- start информационного блока -->
-<section class="info">
+<section class="info" id="info">
     <div class="container">
         <div class="info__inner">
             <img class="info__img" src="images/info-img.jpg" alt="">
@@ -159,7 +159,7 @@
 <!-- end информационного блока -->
 
 <!-- start блока ХАРАКТЕРИСТИК -->
-<section class="characteristics">
+<section class="characteristics" id="characteristics">
     <div class="container">
         <h4 class="characteristics__head">
             Характеристики
@@ -321,7 +321,8 @@
 </div>
 <!-- end slider -->
 
-<section class="price">
+<!-- start form -->
+<section class="price" id="price">
     <div class="container">
         <div class="price__inner">
             <form class="form" action="">
@@ -368,6 +369,35 @@
         </div>
     </div>
 </section>
+<!-- end form -->
+
+<!-- start footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <a class="footer__link" href="#">Политика конфиденциальности</a>
+            <div class="footer__social">
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img" src="images/instagram.svg" alt="instagram">
+                </a>
+                <a class="footer__social-link" href="#">
+                    <img class="footer__social-img" src="images/facebook.svg" alt="facebook">
+                </a>
+            </div>
+            <div class="footer__contacts">
+                <a class="footer__contacts-link" href="tel:+79999999999">
+                    <img class="footer__contacts-img" src="images/icontel.svg" alt="telephone">
+                    <span>+7(999)999-99-99</span>
+                </a>
+                <a class="footer__contacts-link" href="mailto:elektrobikerussia@mail.ru">
+                    <img class="footer__contacts-img" src="images/iconmail.svg" alt="email">
+                    <span>elektrobikerussia@mail.ru</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
